@@ -1,6 +1,163 @@
+
+
+app_name: 大圣教育
+
 jumbotrons:
   - title: 各专业最优秀的老师
-    src: "images/dashboard_full_1.png"
+    subtitle: 我们的老师是来自高校的优秀人才
+    image: "images/dashboard_full_1.png"
 
   - title: 最专业的例题分析
-    src: "images/dashboard_full_3.png"
+    subtitle: 例题详解, 预测押题, 应有尽有
+    image: "images/dashboard_full_3.png"
+
+
+section1: 精品课程
+section1_subtitle: 针对各高校的明星课程, 我们积累了丰富的经验和宝贵的资料.
+
+classes:
+  - title: Internet Application
+    subtitle: ASP.Net MVC高级开发, 定制你自己需要的网站. 前后端同时兼顾, 找工作不再发愁.
+    image:
+
+  - title: Data Communication
+    subtitle: 网络基础, IT的基本功;
+    image:
+
+  - title: Java
+    subtitle: IT应用最广泛的开发语言; 我们不仅仅是介绍语法, 我们是传授思维.
+    image:
+
+  - title: BLaw
+    subtitle: xxxxxxxxxx
+    image:
+
+statistics_title: 超过1000人次的培训经验
+num_sections:
+  - count: 1000
+    title: 培训人次
+    suffix: '▲'
+  - count: 100
+    title: 课程数量
+    suffix: '▲'
+  - count: 90
+    title: 好评率
+    suffix: '%▲'
+  - count: 5
+    title: 专业覆盖
+    suffix: '▲'
+
+
+
+section2: 课程价格
+section2_subtitle: 早鸟优惠,越早越便宜哦
+pricing_plans:
+  - title: 知识分享 - Free
+    price: 0
+    comment: 100% free. Forever
+    item_for_plan:
+      - 公开讲座
+      - 微信讲座
+      - 经验分享
+
+  - title: 课程系列培训
+    price: 2xx起
+    comment: 还有早鸟优惠和团购优惠哦
+    item_for_plan:
+      - 课程串讲
+      - 习题讲解
+      - 考点分析与模拟试卷
+
+  - title: Assignment精讲
+    price: 2x起
+    comment: 还有早鸟优惠和团购优惠哦
+    item_for_plan:
+      - Assignment需求分析
+      - Solution示例
+      - Interview模拟
+
+  - title: 职业培训
+    price: 9xx起
+    comment: 还有早鸟优惠和团购优惠哦
+    item_for_plan:
+      - 职场硬技能
+      - 面试技巧
+      - 项目实战
+
+
+customer_title: 客户反馈
+customer_subtitle: 参加我们培训的学生说
+customer_desc: 学到了很多东西, 比老师讲的详细多了, 而且结合生活中的例子使得知识点更容易理解
+
+students:
+  - image: images/person_1.jpg
+    feedback: 很好
+    school: Monash University
+    major: Master of IT
+
+  - image: images/person_2.jpg
+    feedback: Good
+    school: Monash University
+    major: Master of Accounting
+
+  - image: images/person_3.jpg
+    feedback: Execllent !
+    school: Monash University
+    major: Master of Business
+
+  - image: images/person_2.jpg
+    feedback: Good
+    school: Monash University
+    major: Master of Accounting
+
+
+contact_subtitle: Find Us
+contact_title: 职业规划师
+contact_list:
+  - name: Grace
+    image: images/dashboard_full_1.jpg
+    title: IT专业负责人
+    desc: 毕业于...
+    default: active
+
+  - name: Zoe
+    image: images/dashboard_full_2.jpg
+    title: Accounting专业负责人
+    desc: 毕业于...
+
+
+partner_title: 合作伙伴
+partner_desc: 我们针对澳洲留学移民有一系列的合作伙伴, 都是在各领域top的公司.
+partners:
+  - name: Monkey King 留学移民
+    image: images/image_1.jpg
+    link: http://www.monkeyking.com.au
+
+  - name: 领航教育
+    image: images/image_1.jpg
+    link: http://www.monkeyking.com.au
+
+  - name: CC 工作室
+    image: images/image_1.jpg
+    link: https://kangnwh.github.io
+
+footers:
+  - title: Melbourne
+    address: Level 11, 230 Collins St
+    phone: +61 (04) 88866858
+    email: xxx@xxx.com
+
+  - title: Sydney总部
+    address: pending...
+    phone: +61 (02) 9212 0099
+    email: xxx@xxx.com
+
+  - title: Sydney Eastwood校区
+    address: pending...
+    phone: +61 (04) 6899 8798
+    email: xxx@xxx.com
+
+  - title: Adelaide
+    address: pending...
+    phone: +61 (08) 8232 6669
+    email: xxx@xxx.com
