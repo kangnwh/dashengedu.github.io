@@ -213,7 +213,7 @@
                   <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ftco-animate">
                     <div class="nav ftco-animate nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         {% for item in site.data.info.contact_list %}
-                          <a class="nav-link" id="v-pills-{{ item.name }}-tab" data-toggle="pill" href="#v-pills-{{ item.name }}" role="tab" aria-controls="v-pills-{{ item.name }}" aria-selected="true"> {{ item.name }}</a>
+                          <a class="nav-link {% if item.default=='active' %} show active {% endif %}" id="v-pills-{{ item.name }}-tab" data-toggle="pill" href="#v-pills-{{ item.name }}" role="tab" aria-controls="v-pills-{{ item.name }}" aria-selected="true"> {{ item.name }}</a>
 
                           <!--<a class="nav-link" id="v-pills-performance-tab" data-toggle="pill" href="#v-pills-performance" role="tab" aria-controls="v-pills-performance" aria-selected="false">Performance</a>-->
 
@@ -230,7 +230,7 @@
                   <div class="tab-pane fade  {% if item.default=='active' %} show active {% endif %}" id="v-pills-{{ item.name }}" role="tabpanel" aria-labelledby="v-pills-{{ item.name }}-tab">
                     <div class="d-md-flex">
                         <div class="one-forth align-self-center">
-                            <img src="{{ item.image }}" class="img-fluid border" alt="">
+                            <img src="{{ item.image }}" class="img-fluid border" alt="" style="max-width: 432px;max-height: 432px;">
                         </div>
                         <div class="one-half ml-md-5 align-self-center">
                             <h2 class="mb-4">{{ item.title }}</h2>

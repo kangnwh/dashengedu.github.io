@@ -114,14 +114,14 @@ students:
 contact_subtitle: Find Us
 contact_title: 职业规划师
 contact_list:
-  - name: Grace
-    image: images/dashboard_full_1.jpg
+  - name: Grace-IT
+    image: images/Grace-QR.jpeg
     title: IT专业负责人
     desc: 毕业于...
     default: active
 
-  - name: Zoe
-    image: images/dashboard_full_2.jpg
+  - name: Zoe-Accounting
+    image: images/Zoe-QR.png
     title: Accounting专业负责人
     desc: 毕业于...
 
